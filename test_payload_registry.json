@@ -1,0 +1,19 @@
+{
+  "request": {
+    "uid": "111aa2b3-4455-6677-88bb-999999ffffff",
+    "object": {
+      "spec": {
+        "containers": [
+          {
+            "name": "untrusted-app",
+            "image": "docker.io/library/ubuntu:latest",
+            "securityContext": {
+              "runAsUser": 10001,
+              "runAsNonRoot": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

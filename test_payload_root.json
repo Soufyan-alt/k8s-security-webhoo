@@ -1,0 +1,19 @@
+{
+  "request": {
+    "uid": "705ab4b5-6393-4d41-8d1a-30511fd296c6",
+    "object": {
+      "spec": {
+        "containers": [
+          {
+            "name": "attacker-app",
+            "image": "mycompany.azurecr.io/nginx:latest",
+            "securityContext": {
+              "runAsUser": 0,
+              "runAsNonRoot": false
+            }
+          }
+        ]
+      }
+    }
+  }
+}
