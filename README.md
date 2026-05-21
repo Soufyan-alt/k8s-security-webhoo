@@ -1,4 +1,3 @@
-
  for the Custom Kubernetes Admission Webhook project
 
 readme_webhook_content =  🛡️ Custom Kubernetes Admission Webhook: Enterprise Guardrail Gateway
@@ -27,8 +26,7 @@ The core technology layers implemented to construct, secure, and validate this p
 
 🏗️ Architectural Blueprint & Control Flow
 
-
-🚨 [THE EXPLOIT PATHWAY (Without DevSecOps)]
+  [THE EXPLOIT PATHWAY (Without DevSecOps)]
 +------------------+      RCE Exploit      +--------------------+      Container Breakout      +------------------+
 | Rogue Deployment | ────────────────────> | Vulnerable Pod     | ───────────────────────────> | Host OS Kernel   |
 | (runAsUser: 0)   |                       | (Root Context)     |                              | (Full Takeover)  |
@@ -42,4 +40,4 @@ The core technology layers implemented to construct, secure, and validate this p
 +------------------+                       +--------------------+                              +------------------+
                                                      │                                                  │
                                        [DENIED]      │ <─────── Return: allowed: false ─────────────────┘
-                                   "Deployment Blocked!"
+                                   
